@@ -5,7 +5,7 @@ import { FaTelegramPlane, FaInstagram } from "react-icons/fa";
 export default function App() {
   return (
     <main className="hero">
-    <video autoPlay loop muted className="hero-video">
+   <video autoPlay loop muted playsInline className="hero-video">
   <source src="/bg-video.mp4" type="video/mp4" />
 </video>
 
