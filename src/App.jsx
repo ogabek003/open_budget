@@ -1,9 +1,6 @@
 import React from "react";
 import "./App.css";
 import { FaTelegramPlane, FaInstagram } from "react-icons/fa";
-<video autoPlay loop muted playsInline className="background-video">
-  <source src="/14696-258543627.mp4" type="video/mp4" />
-</video>
 
 export default function App() {
   return (
@@ -11,7 +8,6 @@ export default function App() {
       {/* Orqa fon video */}
       <video autoPlay loop muted playsInline className="hero-video">
         <source src="/14696-258543627.mp4" type="video/mp4" />
-        Sizning brauzeringiz video formatini qo‘llab-quvvatlamaydi.
       </video>
 
       {/* Qoraytirish effekti */}
@@ -21,22 +17,11 @@ export default function App() {
       <div className="hero__inner">
         {/* Tugmalar */}
         <div className="btns top-btns">
-          <a
-            href="https://t.me/open_rasmiy"
-            className="btn btn--tg"
-            target="_blank"
-            rel="noreferrer"
-          >
+          <a href="https://t.me/open_rasmiy" className="btn btn--tg" target="_blank" rel="noreferrer">
             <FaTelegramPlane style={{ marginRight: "8px" }} />
             Telegram
           </a>
-
-          <a
-            href="https://instagram.com/sening_kanaling"
-            className="btn btn--ig"
-            target="_blank"
-            rel="noreferrer"
-          >
+          <a href="https://instagram.com/sening_kanaling" className="btn btn--ig" target="_blank" rel="noreferrer">
             <FaInstagram style={{ marginRight: "8px" }} />
             Instagram
           </a>
@@ -56,15 +41,12 @@ export default function App() {
           <p>👥👥👥👤 7 ta ovoz — <strong>600 000 so‘m 💵</strong></p>
           <p>👥👥👥👥 8 ta ovoz — <strong>700 000 so‘m 💵</strong></p>
           <p>👥👥👥👥👤 9 ta ovoz — <strong>800 000 so‘m 💵</strong></p>
-          <p
-            className="special-offer"
-            onClick={() => window.open("https://t.me/open_rasmiy", "_blank")}
-          >
+          <p className="special-offer" onClick={() => window.open("https://t.me/open_rasmiy", "_blank")}>
             👥👥👥👥👥 10 ta ovoz — 🎁 <strong>iPhone sovg‘a uy!</strong>
           </p>
         </div>
 
-        <p className="footer-text">👆🏻 sovg‘ani olish uchun bosing 👆🏻</p>
+        <p className="footer-text">👆🏻 Sovg‘ani olish uchun bosing 👆🏻</p>
       </div>
     </main>
   );
