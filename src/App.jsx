@@ -1,6 +1,9 @@
 import React from "react";
 import "./App.css";
 import { FaTelegramPlane, FaInstagram } from "react-icons/fa";
+<video autoPlay loop muted playsInline className="background-video">
+  <source src="/14696-258543627.mp4" type="video/mp4" />
+</video>
 
 export default function App() {
   return (
