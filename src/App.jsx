@@ -5,9 +5,10 @@ import { FaTelegramPlane, FaInstagram } from "react-icons/fa";
 export default function App() {
   return (
     <main className="hero">
-      <video autoPlay loop muted playsInline className="hero-video">
-  <source src="/14696-258543627_medium.mp4" type="video/mp4" />
+    <video autoPlay loop muted className="hero-video">
+  <source src="/bg-video.mp4" type="video/mp4" />
 </video>
+
 
 
       {/* Qoraytirish effekti */}
