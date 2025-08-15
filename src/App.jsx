@@ -1,6 +1,10 @@
 import React from "react";
 import "./App.css";
 import { FaTelegramPlane, FaInstagram } from "react-icons/fa";
+<video src="/video.mp4" autoPlay loop muted />
+import myVideo from "./public/14696-258543627.mp4";
+
+<video src={myVideo} autoPlay loop muted />
 
 export default function App() {
   return (
