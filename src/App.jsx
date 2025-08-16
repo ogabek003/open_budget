@@ -1,13 +1,12 @@
 import React from "react";
 import "./App.css";
 import { FaTelegramPlane, FaInstagram } from "react-icons/fa";
-import "./public/bg-video.mp4"
+import video from "./public/bg-video.mp4";
+
 export default function App() {
   return (
     <main className="hero">
-   <video autoPlay loop muted playsInline className="hero-video">
-  <source src="/bg-video.mp4" type="video/mp4" />
-</video>
+   
 
       {/* Qoraytirish effekti */}
       <div className="hero-overlay"></div>
