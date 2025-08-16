@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 import { FaTelegramPlane, FaInstagram } from "react-icons/fa";
-
+import "./public/bg-video.mp4"
 export default function App() {
   return (
     <main className="hero">
