@@ -9,8 +9,6 @@ export default function App() {
   <source src="/bg-video.mp4" type="video/mp4" />
 </video>
 
-
-
       {/* Qoraytirish effekti */}
       <div className="hero-overlay"></div>
 
@@ -19,7 +17,7 @@ export default function App() {
         {/* Tugmalar */}
         <div className="btns top-btns">
         
-          <a href="/telegram" className="btn btn--tg">
+          <a href="t.me/open_rasmiy" className="btn btn--tg">
   <FaTelegramPlane style={{ marginRight: "8px" }} />
   Telegram
 </a>
